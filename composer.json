@@ -1,0 +1,22 @@
+{
+    "name": "aming/wechat_coupon",
+    "description": "wechat pay coupon",
+    "keywords": ["wechat", "pay"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "a ming",
+            "email": "304337681@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aming\\WechatCoupon\\": "src"
+        }
+    }
+}
