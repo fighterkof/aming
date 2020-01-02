@@ -1,5 +1,5 @@
 {
-    "name": "aming/wechat_coupon",
+    "name": "aming/wechatcoupon",
     "description": "wechat pay coupon",
     "keywords": ["wechat", "pay"],
     "type": "library",
