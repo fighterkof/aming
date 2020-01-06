@@ -3,8 +3,13 @@ namespace aming\wechat;
 
 class Coupon
 {
-    public function test()
+    public static function today()
     {
-        return 'this is composer mypackage test';
+        exit;
+        list($y, $m, $d) = explode('-', date('Y-m-d'));
+        return [
+            mktime(0, 0, 0, $m, $d, $y),
+            mktime(23, 59, 59, $m, $d, $y)
+        ];
     }
 }

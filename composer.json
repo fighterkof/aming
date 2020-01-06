@@ -1,5 +1,5 @@
 {
-    "name": "aming/wechatcoupon",
+    "name": "aming/wechat",
     "description": "wechat pay coupon",
     "keywords": ["wechat", "pay"],
     "type": "library",
@@ -16,7 +16,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Aming\\WechatCoupon\\": "src"
+            "aming\\wechat\\": "src"
         }
-    }
+    },
+	"files": [
+            "src/coupon.php"
+    ]
 }
